@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.guest-item {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  max-width: 600px;
+}
+.guest-item:hover {
+  background-color: #f0f0f0;
+}
+.guest-item.selected {
+  background-color: #d0f0c0;
+  border-color: #a0d0a0;
+}
+.guest-list {
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+.guest-list h1 {
+  text-align: center;
+  color: #333;
+}
